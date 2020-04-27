@@ -1,4 +1,4 @@
-# PIC18_Boar_Support_Pakage
+# PIC18_Board_Support_Pakage
 
 /* Library */
 
