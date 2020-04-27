@@ -1,0 +1,509 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/spi/src/hard/spi_init.c
+[e E3803 . `uc
+SPI_SLAVE 0
+SPI_MASTER 1
+]
+[e E3797 . `uc
+SPI_MODE_0 0
+SPI_MODE_1 1
+SPI_MODE_2 2
+SPI_MODE_3 3
+]
+"20 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_init.c
+[e E3803 . `uc
+SPI_SLAVE 0
+SPI_MASTER 1
+]
+[e E3797 . `uc
+SPI_MODE_0 0
+SPI_MODE_1 1
+SPI_MODE_2 2
+SPI_MODE_3 3
+]
+"4 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/EepromEx_25LCxxx/src/Hardware/EepromEx_25LCxxx_WIP.c
+[v _EepromEx_25LCxxx_WIP EepromEx_25LCxxx_WIP `(uc  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/spi/src/hard/spi_init.c
+[v _spi_init spi_init `(v  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/spi/src/hard/spi_read.c
+[v _spi_read spi_read `(v  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/spi/src/hard/spi_write.c
+[v _spi_write spi_write `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic18\d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 1 0 ]
+"8 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\main.c
+[v _testText testText `(v  1 e 1 0 ]
+"20
+[v _main main `(v  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_draw.c
+[v _tft_graph_draw_pixel tft_graph_draw_pixel `(v  1 e 1 0 ]
+"13
+[v _tft_graph_fill_rect tft_graph_fill_rect `(v  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_graphic.c
+[v _abso abso `(i  1 e 2 0 ]
+"9
+[v _writeLine writeLine `(v  1 e 1 0 ]
+"48
+[v _tft_graph_drawHLine tft_graph_drawHLine `(v  1 e 1 0 ]
+"63
+[v _tft_graph_drawVLine tft_graph_drawVLine `(v  1 e 1 0 ]
+"165
+[v _tft_graph_draw_circle_helper tft_graph_draw_circle_helper `(v  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_init.c
+[v _tft_lcd_send tft_lcd_send `(v  1 e 1 0 ]
+"15
+[v _tft_lcd_init tft_lcd_init `(v  1 e 1 0 ]
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_set_addr_window.c
+[v _tft_set_addr_window tft_set_addr_window `(v  1 e 1 0 ]
+"9 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_text.c
+[v _tft_text_print tft_text_print `(v  1 e 1 0 ]
+"60
+[v _tft_text_printf tft_text_printf `(v  1 e 1 0 ]
+"67
+[v _tft_text_gotoXY tft_text_gotoXY `(v  1 e 1 0 ]
+"72
+[v _tft_text_set_size tft_text_set_size `(v  1 e 1 0 ]
+"76
+[v _tft_text_set_color tft_text_set_color `(v  1 e 1 0 ]
+[s S1106 . 4 `us 1 X 2 0 `us 1 Y 2 2 ]
+"45 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/tft_lcd_28/include/tft_lcd.h
+[v _currantPoint currantPoint `S1106  1 e 4 0 ]
+[s S1109 . 10 `us 1 cursor_x 2 0 `us 1 cursor_y 2 2 `us 1 textcolor 2 4 `us 1 textbgcolor 2 6 `uc 1 textsize 1 8 `uc 1 wrap 1 9 ]
+"46
+[v _MText MText `S1109  1 e 10 0 ]
+"158
+[v _initcmd initcmd `[106]uc  1 e 106 0 ]
+"209
+[v _mfont mfont `C[256][5]uc  1 e 1280 0 ]
+[s S172 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2481 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f4550.h
+[s S293 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S301 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S304 . 1 `S172 1 . 1 0 `S293 1 . 1 0 `S301 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES304  1 e 1 @3969 ]
+[s S21 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+]
+"2996
+[s S29 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+]
+[u S37 . 1 `S21 1 . 1 0 `S29 1 . 1 0 ]
+[v _LATAbits LATAbits `VES37  1 e 1 @3977 ]
+[s S203 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3098
+[s S212 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S221 . 1 `S203 1 . 1 0 `S212 1 . 1 0 ]
+[v _LATBbits LATBbits `VES221  1 e 1 @3978 ]
+[s S1116 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"3206
+[s S1123 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S1130 . 1 `S1116 1 . 1 0 `S1123 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1130  1 e 1 @3979 ]
+[s S400 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3455
+[s S408 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S416 . 1 `S400 1 . 1 0 `S408 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES416  1 e 1 @3986 ]
+[s S163 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3655
+[u S181 . 1 `S163 1 . 1 0 `S172 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES181  1 e 1 @3987 ]
+[s S436 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3873
+[s S443 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S450 . 1 `S436 1 . 1 0 `S443 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES450  1 e 1 @3988 ]
+[s S655 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4490
+[s S664 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S670 . 1 `S655 1 . 1 0 `S664 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES670  1 e 1 @3998 ]
+"6579
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6664
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"6866
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S468 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"6886
+[s S474 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S479 . 1 `S468 1 . 1 0 `S474 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES479  1 e 1 @4038 ]
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"7019
+[s S497 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S500 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S509 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S514 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S520 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S525 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S528 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S531 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S536 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S541 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S546 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S552 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S557 . 1 `S494 1 . 1 0 `S497 1 . 1 0 `S500 1 . 1 0 `S509 1 . 1 0 `S514 1 . 1 0 `S520 1 . 1 0 `S525 1 . 1 0 `S528 1 . 1 0 `S531 1 . 1 0 `S536 1 . 1 0 `S541 1 . 1 0 `S546 1 . 1 0 `S552 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES557  1 e 1 @4039 ]
+"7191
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"9101
+[v _CS CS `VEb  1 e 0 @31778 ]
+"20 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"32
+} 0
+"15 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_init.c
+[v _tft_lcd_init tft_lcd_init `(v  1 e 1 0 ]
+{
+"34
+[v tft_lcd_init@addr addr `*.39uc  1 a 2 7 ]
+"33
+[v tft_lcd_init@cmd cmd `uc  1 a 1 6 ]
+[v tft_lcd_init@x x `uc  1 a 1 5 ]
+[v tft_lcd_init@numArgs numArgs `uc  1 a 1 4 ]
+"59
+} 0
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/spi/src/hard/spi_init.c
+[v _spi_init spi_init `(v  1 e 1 0 ]
+{
+[v spi_init@x x `E3803  1 a 1 wreg ]
+[v spi_init@x x `E3803  1 a 1 wreg ]
+[v spi_init@mode mode `E3797  1 p 1 0 ]
+"5
+[v spi_init@x x `E3803  1 a 1 1 ]
+"63
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic18\d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 1 0 ]
+{
+[v Delay1KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1KTCYx@unit unit `uc  1 a 1 0 ]
+"13
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 1 0 ]
+{
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 1 ]
+"13
+} 0
+"8 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\main.c
+[v _testText testText `(v  1 e 1 0 ]
+{
+"17
+} 0
+"72 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_text.c
+[v _tft_text_set_size tft_text_set_size `(v  1 e 1 0 ]
+{
+[v tft_text_set_size@textsize textsize `uc  1 a 1 wreg ]
+[v tft_text_set_size@textsize textsize `uc  1 a 1 wreg ]
+[v tft_text_set_size@textsize textsize `uc  1 a 1 0 ]
+"74
+} 0
+"76
+[v _tft_text_set_color tft_text_set_color `(v  1 e 1 0 ]
+{
+[v tft_text_set_color@textcolor textcolor `us  1 p 2 0 ]
+"78
+} 0
+"60
+[v _tft_text_printf tft_text_printf `(v  1 e 1 0 ]
+{
+[v tft_text_printf@str str `*.25uc  1 p 2 42 ]
+"65
+} 0
+"9
+[v _tft_text_print tft_text_print `(v  1 e 1 0 ]
+{
+[v tft_text_print@c c `uc  1 a 1 wreg ]
+"24
+[v tft_text_print@j j `uc  1 a 1 40 ]
+"23
+[v tft_text_print@line line `uc  1 a 1 38 ]
+"22
+[v tft_text_print@i i `uc  1 a 1 41 ]
+"9
+[v tft_text_print@c c `uc  1 a 1 wreg ]
+"11
+[v tft_text_print@c c `uc  1 a 1 39 ]
+"58
+} 0
+"13 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_draw.c
+[v _tft_graph_fill_rect tft_graph_fill_rect `(v  1 e 1 0 ]
+{
+"21
+[v tft_graph_fill_rect@px px `ul  1 a 4 32 ]
+"13
+[v tft_graph_fill_rect@x x `us  1 p 2 18 ]
+[v tft_graph_fill_rect@y y `us  1 p 2 20 ]
+[v tft_graph_fill_rect@w w `us  1 p 2 22 ]
+[v tft_graph_fill_rect@h h `us  1 p 2 24 ]
+[v tft_graph_fill_rect@color color `us  1 p 2 26 ]
+"29
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_draw.c
+[v _tft_graph_draw_pixel tft_graph_draw_pixel `(v  1 e 1 0 ]
+{
+[v tft_graph_draw_pixel@x x `us  1 p 2 18 ]
+[v tft_graph_draw_pixel@y y `us  1 p 2 20 ]
+[v tft_graph_draw_pixel@color color `us  1 p 2 22 ]
+"11
+} 0
+"48 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_graphic.c
+[v _tft_graph_drawHLine tft_graph_drawHLine `(v  1 e 1 0 ]
+{
+[v tft_graph_drawHLine@x x `us  1 p 2 18 ]
+[v tft_graph_drawHLine@y y `us  1 p 2 20 ]
+[v tft_graph_drawHLine@w w `us  1 p 2 22 ]
+[v tft_graph_drawHLine@color color `us  1 p 2 24 ]
+"61
+} 0
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_set_addr_window.c
+[v _tft_set_addr_window tft_set_addr_window `(v  1 e 1 0 ]
+{
+"5
+[v tft_set_addr_window@y2 y2 `us  1 a 2 16 ]
+"4
+[v tft_set_addr_window@x2 x2 `us  1 a 2 14 ]
+"3
+[v tft_set_addr_window@x1 x1 `us  1 p 2 4 ]
+[v tft_set_addr_window@y1 y1 `us  1 p 2 6 ]
+[v tft_set_addr_window@w w `us  1 p 2 8 ]
+[v tft_set_addr_window@h h `us  1 p 2 10 ]
+"21
+} 0
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_init.c
+[v _tft_lcd_send tft_lcd_send `(v  1 e 1 0 ]
+{
+[v tft_lcd_send@dc dc `uc  1 a 1 wreg ]
+[v tft_lcd_send@dc dc `uc  1 a 1 wreg ]
+[v tft_lcd_send@value value `uc  1 p 1 2 ]
+"6
+[v tft_lcd_send@dc dc `uc  1 a 1 3 ]
+"13
+} 0
+"3 D:\HAC\Etudes\TPMCU\myemu\emu\bsp/spi/src/hard/spi_write.c
+[v _spi_write spi_write `(v  1 e 1 0 ]
+{
+[v spi_write@data data `uc  1 a 1 wreg ]
+"5
+[v spi_write@data_flush data_flush `uc  1 a 1 0 ]
+"3
+[v spi_write@data data `uc  1 a 1 wreg ]
+"6
+[v spi_write@data data `uc  1 a 1 1 ]
+"10
+} 0
+"67 D:\HAC\Etudes\TPMCU\myemu\emu\bsp\tft_lcd_28\test\prjct\tftlcd_test.X\tft_lcd_text.c
+[v _tft_text_gotoXY tft_text_gotoXY `(v  1 e 1 0 ]
+{
+[v tft_text_gotoXY@x x `us  1 p 2 0 ]
+[v tft_text_gotoXY@y y `us  1 p 2 2 ]
+"70
+} 0
