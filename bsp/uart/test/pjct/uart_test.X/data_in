@@ -1,0 +1,15 @@
+0x00
+wait 100 ms
+"0123456789"
+
+wait 100 ms
+"B"
+
+wait 100 ms
+0x47
+
+wait 100 ms
+0x0A
+
+wait 100 ms
+"FIN"
